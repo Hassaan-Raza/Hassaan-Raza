@@ -57,6 +57,8 @@ Real-time global intelligence dashboard pulling live weather, air quality, earth
 ### 🗺️ AgenticAI Travel Planner
 Multi-agent AI travel itinerary generator built with CrewAI and Streamlit. Three specialized agents run sequentially — a location expert researches hotels, weather, and visa requirements; a guide expert finds activities and restaurants tailored to interests; a planner synthesizes everything into a day-by-day itinerary with time slots and cost estimates. Exports as a styled PDF.
 
+[![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://agenticaitravelplannerapp-ilzec6imxgjkequvn9bdkp.streamlit.app)
+
 ---
 
 ### 🏢 ERP Chatbot
@@ -67,6 +69,8 @@ Multi-company ERP AI assistant built on Streamlit, MySQL (AWS RDS), and Llama 3.
 ### 🐍 Pythonaut — AI Python Tutor
 Multi-agent AI tutoring system built with CrewAI and Streamlit. Six specialized agents handle teaching, code review, curriculum planning, quiz generation, query routing, and conversation. Each agent has a distinct role and DuckDuckGo web search for fetching up-to-date resources.
 
+[![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://pythonautpythonteacher-avrff3ruyvpnqueadyn6it.streamlit.app)
+
 ---
 
 ### 💼 Sales AI Assistant
@@ -75,32 +79,40 @@ CEO-facing sales analytics chatbot connecting to a MySQL database. Natural langu
 ---
 
 ### 🧑‍💻 C++ Tutor
-Direct fork of Pythonaut retargeted for C++. Same six-agent CrewAI architecture — teaching expert, code reviewer, curriculum planner, quiz master, coordinator, conversation handler — with C++ specific resources, Core Guidelines instead of PEP 8, and coverage of memory management and pointer usage.
+Direct fork of Pythonaut retargeted for C++. Same six-agent CrewAI architecture with C++ specific resources, Core Guidelines instead of PEP 8, and coverage of memory management and pointer usage.
 
 ---
 
 ### 📈 IPL Win Probability Predictor
 Machine learning model that predicts IPL match win probability in real time. Built with Python and deployed as a web app.
 
+[![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://ipl-win-probability-predictor-pythonapp.streamlit.app)
+
 ---
 
 ### 🏠 Bangalore House Price Predictor
 End-to-end ML project predicting Bangalore property prices. Includes data cleaning, feature engineering, model training, and a web app for live predictions.
+
+[![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://bangalore-house-prediction-4xumqunuiqv8eglkkh7rvv.streamlit.app)
+
+---
+
+### 📦 Inventory Risk Predictor
+ML model that assesses inventory risk levels for businesses. Flags low-stock and out-of-stock situations and generates risk alerts.
+
+[![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://inventoryriskpredictor.streamlit.app)
 
 ---
 
 ### 🥔 Potato Disease Classifier
 CNN-based image classifier that diagnoses potato plant diseases from leaf photos — Early Blight, Late Blight, or Healthy. TensorFlow model trained at 256×256, served via Streamlit with confidence scores.
 
+[![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://potatodisease-kkz4ybyejdw2uitrszqjeq.streamlit.app)
+
 ---
 
 ### 🔓 UMT CAPTCHA Auto-filler
 Browser extension (Chrome/Firefox) that automatically reads and fills CAPTCHA fields on UMT's student portal. Includes retry logic, MutationObserver for dynamic CAPTCHAs, and DOM event simulation.
-
----
-
-### 🤖 UMT Course Auto Add/Drop
-Script that automates UMT's course registration portal by repeatedly pressing buttons until a spot opens. Keep the browser open and let it run.
 
 ---
 
