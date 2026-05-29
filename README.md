@@ -62,7 +62,7 @@ Multi-agent AI travel itinerary generator built with CrewAI and Streamlit. Three
 ---
 
 ### 🏢 ERP Chatbot
-Multi-company ERP AI assistant built on Streamlit, MySQL (AWS RDS), and Llama 3.1 8B via OpenRouter. Three specialized agents handle sales queries, inventory risk assessment, and cash flow analysis. Intent routing, schema discovery, write-protected DB access, CSV export, and a demo mode built in.
+Built professionally for **Eccountant**, a real company. Multi-company ERP AI assistant connecting directly to Eccountant's MySQL database on AWS RDS. Three specialized agents handle sales queries, inventory risk assessment, and cash flow analysis across their live data. Intent routing, schema discovery, write-protected DB access, CSV export, and a demo mode built in. Powered by Llama 3.1 8B via OpenRouter.
 
 ---
 
@@ -74,12 +74,14 @@ Multi-agent AI tutoring system built with CrewAI and Streamlit. Six specialized 
 ---
 
 ### 💼 Sales AI Assistant
-CEO-facing sales analytics chatbot connecting to a MySQL database. Natural language questions get routed to a sales agent that queries the DB and returns AI-generated analysis. Covers revenue, customers, products, and financial queries with persistent chat history.
+Built professionally for **Eccountant**, connecting directly to their MySQL database. CEO-facing sales analytics chatbot that takes natural language questions and returns AI-generated analysis across their live sales data. Covers revenue, customers, products, and financial queries with persistent chat history.
 
 ---
 
 ### 🧑‍💻 C++ Tutor
 Direct fork of Pythonaut retargeted for C++. Same six-agent CrewAI architecture with C++ specific resources, Core Guidelines instead of PEP 8, and coverage of memory management and pointer usage.
+
+[![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://cplusplusteacher.streamlit.app)
 
 ---
 
