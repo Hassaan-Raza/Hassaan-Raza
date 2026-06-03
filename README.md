@@ -40,6 +40,13 @@ GPT-style transformer built entirely from scratch in PyTorch. No pretrained weig
 
 ---
 
+### ⚖️ VerdictAI
+RAG powered legal document intelligence system. Upload any contract, NDA, lease, or agreement and get instant clause-referenced answers in plain English. Red flag detection with HIGH, MEDIUM, and LOW severity ratings. Obligation and rights extraction, deadline mapping, party analysis, and an overall risk score with a full category breakdown. Built on a custom RAG pipeline — documents chunked and embedded with HuggingFace sentence transformers, indexed in ChromaDB, retrieved via vector similarity search, and passed to Gemma 4 31B via Ollama Cloud with a legal domain system prompt. Every answer cites the actual clause it came from.
+
+[![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://verdictai-9zjwujsqyk2gsccfdpf9an.streamlit.app)
+
+---
+
 ### 🔬 MediScan
 Multimodal AI clinical diagnostic suite. Upload any X-ray, MRI, CT scan, or medical report. Gemini Vision returns a structured diagnosis with severity, confidence, and key findings. Nano Banana 2 generates an annotated anatomical body map. Veo 3.1 produces personalised rehabilitation exercise videos. Three modalities, one pipeline.
 
