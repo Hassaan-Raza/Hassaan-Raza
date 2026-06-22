@@ -47,10 +47,29 @@ RAG powered legal document intelligence system. Upload any contract, NDA, lease,
 
 ---
 
+### 💼 Jobee — AI Job & Internship Radar
+Built to solve a real problem: job boards are built for San Francisco, not Lahore. Jobee reads your CV, figures out who you are as a candidate, then hits 7 job boards at once and ranks everything by how well it actually fits you. Not just by keyword — by your real skills, your location, your role type. Jobs in your city come first. Worldwide remote comes next. Country-restricted listings sink to the bottom automatically. Built with semantic similarity scoring using sentence-transformers and a 6-tier geo-proximity ranking system.
+
+[![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://jobeee.streamlit.app)
+
+---
+
 ### 🔬 MediScan
 Multimodal AI clinical diagnostic suite. Upload any X-ray, MRI, CT scan, or medical report. Gemini Vision returns a structured diagnosis with severity, confidence, and key findings. Nano Banana 2 generates an annotated anatomical body map. Veo 3.1 produces personalised rehabilitation exercise videos. Three modalities, one pipeline.
 
 [![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://mediscan-ettdj7rsjvqmolqcoz8sh9.streamlit.app)
+
+---
+
+### 🗺️ WayFairy — Agentic AI Travel Planner
+Multi-agent AI travel itinerary generator built with CrewAI and Streamlit. Four specialized agents run sequentially — a logistics researcher finds real hotels and checks visa requirements; a local guide finds interest-matched activities and restaurants; a packing specialist generates a weather-aware list using live data from wttr.in; a master planner synthesizes everything into a day-by-day itinerary with a full budget breakdown. Every recommendation comes from live web search, not memorized training data.
+
+[![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://agenticaitravelplannerapp-ilzec6imxgjkequvn9bdkp.streamlit.app)
+
+---
+
+### 🏢 ERP Chatbot & Sales Assistant
+Built professionally for **Eccountant**, a real company. Multi-company ERP AI assistant connecting directly to Eccountant's MySQL database on AWS RDS. Three specialized agents handle sales queries, inventory risk assessment, and cash flow analysis across their live data. Intent routing, schema discovery, write-protected DB access, CSV export, and a demo mode built in. A separate CEO-facing sales assistant handles natural language queries across revenue, customers, and products with persistent chat history. Powered by Llama 3.1 8B via OpenRouter.
 
 ---
 
@@ -61,27 +80,10 @@ Real-time global intelligence dashboard pulling live weather, air quality, earth
 
 ---
 
-### 🗺️ AgenticAI Travel Planner
-Multi-agent AI travel itinerary generator built with CrewAI and Streamlit. Three specialized agents run sequentially — a location expert researches hotels, weather, and visa requirements; a guide expert finds activities and restaurants tailored to interests; a planner synthesizes everything into a day-by-day itinerary with time slots and cost estimates. Exports as a styled PDF.
-
-[![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://agenticaitravelplannerapp-ilzec6imxgjkequvn9bdkp.streamlit.app)
-
----
-
-### 🏢 ERP Chatbot
-Built professionally for **Eccountant**, a real company. Multi-company ERP AI assistant connecting directly to Eccountant's MySQL database on AWS RDS. Three specialized agents handle sales queries, inventory risk assessment, and cash flow analysis across their live data. Intent routing, schema discovery, write-protected DB access, CSV export, and a demo mode built in. Powered by Llama 3.1 8B via OpenRouter.
-
----
-
 ### 🐍 Pythonaut — AI Python Tutor
 Multi-agent AI tutoring system built with CrewAI and Streamlit. Six specialized agents handle teaching, code review, curriculum planning, quiz generation, query routing, and conversation. Each agent has a distinct role and DuckDuckGo web search for fetching up-to-date resources.
 
 [![Demo](https://img.shields.io/badge/Live_Demo-streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://pythonautpythonteacher-avrff3ruyvpnqueadyn6it.streamlit.app)
-
----
-
-### 💼 Sales AI Assistant
-Built professionally for **Eccountant**, connecting directly to their MySQL database. CEO-facing sales analytics chatbot that takes natural language questions and returns AI-generated analysis across their live sales data. Covers revenue, customers, products, and financial queries with persistent chat history.
 
 ---
 
